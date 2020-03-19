@@ -11,6 +11,7 @@ puppeteer
   .launch()
   .then(browser => browser.newPage())
   .then(page => {
+    console.log("scraping email. please wait!");
     return page.goto(url).then(function() {
       return page.content();
     });
