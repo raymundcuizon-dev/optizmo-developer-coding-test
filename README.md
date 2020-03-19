@@ -14,7 +14,8 @@ cd optizmo-developer-coding-test
 ```
 npm install
 ```
-4. scrap the dummy email address from 'https://www.randomlists.com/email-addresses?qty=50000'
+4. scrap the dummy email address from 'https://www.randomlists.com/email-addresses?qty=10000'
+   * please run `node scraper.js` 5x. for the  50,000 email addresses data store.
 ```
 node scraper.js
 ```
