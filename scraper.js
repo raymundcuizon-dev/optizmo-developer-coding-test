@@ -5,7 +5,7 @@ const FileSync = require('lowdb/adapters/FileSync')
 const db = lowdb(new FileSync('emails.json'))
 db.defaults({ emails: [] }).write()
 
-const url = 'https://www.randomlists.com/email-addresses?qty=5000';
+const url = 'https://www.randomlists.com/email-addresses?qty=50000';
 
 puppeteer
   .launch()
